@@ -2,6 +2,7 @@ import java.awt.*;
 import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -105,6 +106,16 @@ public class Main {
 
         // formatting numbers
         NumberFormat currency = NumberFormat.getCurrencyInstance();
-        wassup
+        String currencyResult = currency.format(1234567.891);
+
+        String percentageResult = NumberFormat.getPercentInstance().format(0.2);
+
+
+
+        // Reading input from the user
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+        String nameInput = scanner.nextLine().trim();
+        System.out.println("You are "+ nameInput);
     }
 }
