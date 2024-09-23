@@ -110,37 +110,13 @@ public class Main {
 
         String percentageResult = NumberFormat.getPercentInstance().format(0.2);
 
+        // methods usage
+        String greeting = greetUser("Aimable","KWIZERA");
+        System.out.println(greeting);
+    }
 
-    //-----------------------------------------------------------------------------------------------------------------------------
-        // PROJECT: MORTGAGE CALCULATOR
-        // Reading input from the user
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter your name: ");
-        String nameInput = scanner.nextLine().trim();
-
-        System.out.print("Principal: ");
-        long principal = scanner.nextLong();
-
-        System.out.print("Annual Interest Rate: ");
-        double annualInterestRate = scanner.nextDouble();
-
-        System.out.print("Period (Years): ");
-        double period = scanner.nextDouble();
-
-        // Calculating mortgage logic
-        annualInterestRate = (annualInterestRate / 100) / 12;
-        period = period * 12;
-
-        double ratePower = (Math.pow((((double) 1) + annualInterestRate),period));
-        double numerator =((double)principal) * (annualInterestRate * ratePower);
-        double denominator = (ratePower) - (double) 1;
-        double mortgage = numerator/denominator;
-        String mortgageCurrency = NumberFormat.getCurrencyInstance().format(mortgage);
-
-        System.out.println("Your name is: " + nameInput + "\nYour mortgage is: " + mortgageCurrency);
-
-        // END OF PROJECT:Mortgage calculator
-    //---------------------------------------------------------------------------------------------------
+    // methods
+    public static String greetUser(String firstName, String lastName){
+        return "Hello "+ firstName + " " + lastName;
     }
 }

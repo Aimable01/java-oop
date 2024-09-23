@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="790907c4-55c6-412c-90a6-29f98983a8e4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="93f008b4-b917-47b8-a97e-d0a5173bc4a3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Control flow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Control flow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Types/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Types/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,12 +14,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Control flow" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2m6qtia05y6G3PeAyLMCEP9p2xR" />
+  <component name="ProjectId" id="2m75DnfGSVrlnq3TY4IyTnIhpRN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,20 +30,32 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programming/JAVA/learn/Control flow&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/Programming/JAVA/learn/Mortgage calculator&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="790907c4-55c6-412c-90a6-29f98983a8e4" name="Changes" comment="" />
-      <created>1726407594597</created>
+      <changelist id="93f008b4-b917-47b8-a97e-d0a5173bc4a3" name="Changes" comment="" />
+      <created>1726414658581</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1726407594597</updated>
-      <workItem from="1726407594600" duration="36000" />
-      <workItem from="1726411262639" duration="90000" />
-      <workItem from="1726411372556" duration="14000" />
+      <updated>1726414658581</updated>
+      <workItem from="1726414659993" duration="1225000" />
+      <workItem from="1726419422439" duration="174000" />
+      <workItem from="1726419980032" duration="539000" />
+      <workItem from="1726466082886" duration="169000" />
+      <workItem from="1726467060069" duration="595000" />
+      <workItem from="1726480099545" duration="61000" />
+      <workItem from="1726486100015" duration="28000" />
+      <workItem from="1726491436349" duration="31000" />
+      <workItem from="1726492378196" duration="1373000" />
+      <workItem from="1726559648170" duration="57000" />
     </task>
     <servers />
   </component>
