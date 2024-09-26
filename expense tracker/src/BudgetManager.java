@@ -1,5 +1,4 @@
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -68,4 +67,19 @@ public class BudgetManager {
     }
 
     // load transactions
+    public void loadTransactions(){
+        try {
+            File file = new File(FILE_PATH);
+            if (file.exists()) {
+                BufferedReader reader = new BufferedReader(new FileReader(file));
+                String line;
+                while((line = reader.readLine()) != null){
+                    transactions.add(Transaction.fromFileFormat(line));
+                }
+                reader.close();
+            }
+        }catch (IOException e){
+            System.out.println("Error while loading transactions" + e.getMessage());
+        }
+    }
 }
