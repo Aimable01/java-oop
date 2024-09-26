@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class BudgetManager {
@@ -8,11 +9,14 @@ public class BudgetManager {
 
     public BudgetManager() {
         transactions = new ArrayList<>();
+        loadTransactions();
     }
 
     // add transaction
-    public void addTransaction(Transaction transaction) {
+    public void addTransaction(String description, double amount, String type, String category) {
+        Transaction transaction = new Transaction(description,amount,new Date(),type,category);
         transactions.add(transaction);
+        saveTransactions();
     }
 
     // list transactions

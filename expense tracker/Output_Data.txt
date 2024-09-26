@@ -1,0 +1,2 @@
+MOnthly salary,45000.0,1727326659971,income,null
+food for lunch,3200.0,1727327781225,expense,food

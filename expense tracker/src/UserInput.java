@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
 public class UserInput {
+    public static int choice = -1;
+    public static String name = "";
+
     public static void userInput() {
 
     // ask the user his choice
-        // Variables
-        String name = "";
-        int choice = -1;
 
         Scanner scanner = new Scanner(System.in);
 
@@ -26,34 +26,35 @@ public class UserInput {
 
         System.out.println("👋👋 Hello, " + name + "!");
 
-        while (choice != 7) {
-            System.out.println("\n🚀🚀 Please choose what you want to do:");
-            System.out.println("1 - Add income ");
-            System.out.println("2 - Add expense ");
-            System.out.println("3 - View summary ");
-            System.out.println("4 - View transactions ");
-            System.out.println("5 - Group expenses by category ");
-            System.out.println("6 - Save and load data ");
-            System.out.println("7 - Exit");
+        System.out.println("\n🚀🚀 Please choose what you want to do:");
+        System.out.println("1 - Add Income ");
+        System.out.println("2 - Add Expense ");
+        System.out.println("3 - View Transactions ");
+        System.out.println("4 - View Balance ");
+        System.out.println("5 - Exit");
 
-            System.out.print("🪧🪧 Please enter your choice, " + name + ": ");
+        System.out.print("🪧🪧 Please enter your choice, " + name + ": ");
 
-            // validate choice
-            try {
-                choice = scanner.nextInt();
+        // validate choice
+        try {
+            choice = scanner.nextInt();
 
-                if (choice < 1 || choice > 7) {
-                    System.out.println("❌ Invalid choice. Please choose a number between 1 and 7.");
-                } else {
-                    System.out.println(name + ", you chose: " + choice);
-                }
-
-            } catch (Exception e) {
-                System.out.println("❌ Invalid input. Please enter a number.");
-                scanner.next();
+            if (choice < 1 || choice > 7) {
+                System.out.println("❌ Invalid choice. Please choose a number between 1 and 7.");
+            } else {
+                System.out.println(name + ", you chose: " + choice);
             }
-        }
 
-        System.out.println("👋👋 Goodbye, " + name + "! Thank you for using our expense tracker.");
+        } catch (Exception e) {
+            System.out.println("❌ Invalid input. Please enter a number.");
+            scanner.next();
+        }
+    }
+
+    public static int getChoice() {
+        return choice;
+    }
+    public static String getName() {
+        return name;
     }
 }

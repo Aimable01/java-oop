@@ -39,7 +39,7 @@ public class Transaction {
 
     // save the data
     public String toFileFormat(){
-        return description + "\t" + amount + "\t" + date + "\t" + type + "\t" + (category == null ? "null" : category);
+        return description + "," + amount + "," + date.getTime() + "," + type + "," + (category == null ? "null" : category);
     }
 
     public static Transaction fromFileFormat(String fileLine){
